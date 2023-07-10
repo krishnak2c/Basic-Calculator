@@ -175,6 +175,7 @@ a:hover{
 }
 #section-contact {
     position: absolute;
+    left:28rem
     text-align: center;
     bottom: 0rem;
   }
