@@ -173,3 +173,46 @@ a:hover{
         background-color: rgba(236, 240, 241, 1.0);
     }
 }
+#section-contact {
+    position: absolute;
+    text-align: center;
+    bottom: 0rem;
+  }
+  #section-contact .footer-link:link,
+  #section-contact .footer-link:visited {
+    border-bottom: 1px solid #fff;
+    padding: 1px;
+    line-height: 1.2;
+  }
+  #section-contact .copyright {
+    margin-top: 1.2rem;
+  }
+  #section-contact .copyright p:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3px;
+    margin-top: 1.2rem;
+  }
+  #section-contact .copyright p:last-of-type svg {
+    fill: #fff;
+    height: 1.6rem;
+  }
+  #section-contact .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #section-contact .social-icon {
+    height: 2.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  #section-contact .social-icon.gmail {
+    width: 2.6rem;
+  }
+  @media (max-width: 600px) {
+    #section-contact .social-icon {
+      height: 3rem;
+    }
+  }
