@@ -178,7 +178,7 @@ a:hover{
     left: 50%;
     bottom: 0px;
     transform: translate(-50%, -50%);
-    margin: 0 auto;
+    margin: -75px auto;
   }
   #section-contact .footer-link:link,
   #section-contact .footer-link:visited {
